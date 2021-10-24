@@ -1,0 +1,9 @@
+sp=int(input("\nEnter The Selling Price Of The Item: "))
+cp=int(input("Enter The Cost Price Of Item: "))
+
+if sp>cp:
+    print("\nYou Have Made a Profit Of ₹",sp-cp)
+elif (sp==cp):
+    print("\nYou Have Neither Made a Profit Nor a Loss")
+else:
+    print("\nYou Have Made a Loss Of ₹",cp-sp)
